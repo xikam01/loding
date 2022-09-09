@@ -1,0 +1,138 @@
+*
+{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: indigo;
+    width: 100%;
+}
+
+.container
+{
+    width: 98%;
+    height: 80vh;
+    transform: translateY(18px);
+    background-color: rgb(142, 40, 214);
+    border-radius: 10px;
+}
+.navigation
+{
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+    transform: translateY(18px);
+    width: 98%;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px #f004ad;
+    padding: 6px 12px;
+}
+.menu
+{
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    margin-right: 15px;
+}
+
+li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+a:hover
+{
+    background-color:white;
+    color: indigo;
+    padding: 1px 6px;
+    border-radius: 10px;
+}
+
+a:active
+{
+    color: #f004ad;
+    background-color: indigo;
+}
+
+.logo 
+{
+    width: 25%;
+    margin-left: 10px;
+}
+
+.logo h2
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+.logo h2 span
+{
+    color:#f004ad;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+/* Cards */
+
+.cards
+{
+    display: flex;
+    background-color:indigo;
+    margin-top: 50px;
+    width: 88%;
+    height: 25rem;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.car0ne
+{
+    background-color: rgb(142, 40, 214);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.car0ne:hover
+{
+    transform: scale(10px);
+    transition: all 0.6s ease;
+    background-color: red;
+    color: white;
+}
+
+
+@media screen and (max-width:768px) 
+/* @media screen and (max-width:768px) */
+{
+    .menu
+    {
+        display: none;
+    }
+
+    .logo h2 
+    {
+        transform: 200px;
+    }
+}
+
